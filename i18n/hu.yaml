@@ -1,0 +1,55 @@
+- id: contact_form
+  translation: Kapcsolat űrlap
+
+- id: send
+  translation: üzenet küldése
+
+- id: subscribe_newsletter
+  translation: Feliratkozás Hírlevélre
+
+- id: subscribe
+  translation: feliratkozom
+
+- id: contact_us
+  translation: Írj nekünk
+
+- id: join
+  translation: Feliratkozom
+
+- id: enter_email
+  translation: Email címem…
+
+- id: your_name
+  translation: Neved
+- id: your_email
+  translation: Email címed
+- id: subject
+  translation: Tárgy
+- id: your_message
+  translation: Üzeneted számunkra
+
+- id: links
+  translation: linkek
+
+- id: call
+  translation: tel
+
+- id: email
+  translation: email
+
+- id: all
+  translation: Mind
+- id: entry
+  translation: Előszoba
+- id: bathroom
+  translation: Fürdő
+- id: kitchen
+  translation: Konyha
+- id: dinningroom
+  translation: Ebédlő
+- id: masterbedroom
+  translation: Fő Háló
+- id: secondbedroom
+  translation: Háló 2
+- id: closet
+  translation: Gardrób

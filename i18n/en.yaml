@@ -1,0 +1,58 @@
+- id: contact_form
+  translation: Contact Form
+
+- id: send
+  translation: send message
+
+- id: subscribe_newsletter
+  translation: Subscribe Newsletter
+
+- id: subscribe
+  translation: Subscribe
+
+- id: contact_us
+  translation: Contact Us
+
+- id: apply_now
+  translation: Apply now
+
+- id: join
+  translation: Join
+
+- id: enter_email
+  translation: Enter your email…
+
+- id: your_name
+  translation: Your Name
+- id: your_email
+  translation: Your Email
+- id: subject
+  translation: Subject
+- id: your_message
+  translation: Your Message
+
+- id: links
+  translation: links
+
+- id: call
+  translation: call
+
+- id: email
+  translation: email
+
+- id: all
+  translation: All
+- id: entry
+  translation: Entry
+- id: bathroom
+  translation: Bathroom
+- id: kitchen
+  translation: Kitchen
+- id: dinningroom
+  translation: Dinning room
+- id: masterbedroom
+  translation: Bedroom 1
+- id: secondbedroom
+  translation: Bedroom 2
+- id: closet
+  translation: Walk in closet

@@ -1,0 +1,26 @@
+################################# Slider #####################################
+slider:
+  enable: true
+  bg_image: "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title: "The ÓVÁROS RESIDENCE is waiting"
+      content: "Elegance in the old town of Veszprém. Would you like to break away from everyday life for a few days? Would you go away? Spend a few days with us in the Old Town Residence and give yourself the opportunity to enjoy a slow morning guilt-free, or get up early and explore the city."
+      animation_in: "left"
+      animation_out: "right"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Check availability"
+        link: "https://www.airbnb.hu/rooms/685373647444239102"
+
+############################## about ##################################
+about:
+  enable: true
+  title: "Old Town Residence - Dare to dream"
+  image: "images/banner/banner-feature.png"
+  content: "Would you like to break away from everyday life for a few days? Would you go away? Spend a few days with us in the Old Town Residence and give yourself the opportunity to enjoy a slow morning guilt-free, or get up early and explore the Old Town. Feel what you want and need right now? Do what your heart tells you and allow yourself to do what feels right without plans, listening to your inner voice."
+  button:
+    enable: true
+    label: "Check availability"
+    link: "https://www.airbnb.hu/rooms/685373647444239102"

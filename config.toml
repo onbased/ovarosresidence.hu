@@ -1,0 +1,169 @@
+# this allows to use resources.Get to get resources of the folder "assets"
+# see https://github.com/gohugoio/hugo/commit/dea71670c059ab4d5a42bd22503f18c087dd22d4
+assetDir = "assets"
+
+######################## default configuration ####################
+baseURL = "https://ovarosresidence.hu"
+title = "Ovaros Residence | Elegancia Veszprém szívében"
+theme = [ "educenter-hugo", "hugo-shortcode-gallery"]
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+defaultContentLanguage = "hu"
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swipebox/css/swipebox.min.css"
+[[params.plugins.css]]
+link = "plugins/justified_gallery/justifiedGallery.min.css"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.jsHead]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.jsHead]]
+link = "plugins/justified_gallery/jquery.justifiedGallery.min.js"
+[[params.plugins.jsHead]]
+link = "plugins/lazy/jquery.lazy.min.js"
+[[params.plugins.jsHead]]
+link = "plugins/swipebox/js/jquery.swipebox.min.js"
+[[params.plugins.jsHead]]
+link = "plugins/venobox/venobox.min.js"
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "This is meta description"
+author = "OnBaesd Group Kft."
+# contact info
+address = "8200 Veszprém, Óváros tér 2."
+mobile = "+36305742097"
+email = "info@ovarosresidence.hu"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# top header
+top_header = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.jpg" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "47.0937617"
+map_longitude = "17.9061054"
+map_marker = "images/marker.png" # marker size 37*55 px
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+  
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+################################### English language #####################################
+[Languages.hu]
+languageName = "Hu"
+languageCode = "hu-HU"
+contentDir = "content/hungarian"
+weight = 1
+home = "Kezdőlap"
+# copyright
+copyright = "Copyright &copy; 2022 by [OnBased Group](https://onbased.com)"
+
+################### English navigation ####################
+
+# main menu
+[[Languages.hu.menu.main]]
+name = "Galéria"
+url = "gallery/"
+weight = 1
+
+[[Languages.hu.menu.main]]
+name = "Foglalás"
+url = "https://www.airbnb.hu/rooms/685373647444239102"
+weight = 2
+  
+[[Languages.hu.menu.main]]
+name = "Kapcsolat"
+url = "contact/"
+weight = 3
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-US"
+contentDir = "content/english"
+weight = 2
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2022 by [OnBased Group](https://onbased.com)"
+
+################### English navigation ####################
+
+# main menu
+[[Languages.en.menu.main]]
+name = "Gallery"
+url = "gallery/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Booking"
+url = "https://www.airbnb.hu/rooms/685373647444239102"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 3

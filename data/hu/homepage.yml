@@ -1,0 +1,26 @@
+################################# Slider #####################################
+slider:
+  enable: true
+  bg_image: "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title: "Vár az ÓVÁROS RESIDENCE"
+      content: "Elegancia Veszprém óváros részén. Kiszakadnál a hétköznapokból pár napra? Elutaznál? Tölts néhány napot nálunk az Óváros Residenceben és adj magadnak lehetőséget arra, hogy bűntudat nélkül éld meg a lassú reggelt, vagy kelj korán és fedezd fel a várost."
+      animation_in: "left"
+      animation_out: "right"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Lefoglalom"
+        link: "https://www.airbnb.hu/rooms/685373647444239102"
+
+############################## about ##################################
+about:
+  enable: true
+  title: "Óváros Residence - Merj álmodni"
+  image: "images/banner/banner-feature.png"
+  content: "Kiszakadnál a hétköznapokból pár napra? Elutaznál? Tölts néhány napot nálunk az Óváros Residence-ben és adj magadnak lehetőséget arra, hogy bűntudat nélkül éld meg a lassú reggelt, vagy kelj korán és fedezd fel az óvárost. Érezd meg, hogy most éppen mire vágysz, mire van szükséged? Mit súg a szíved és engedd meg magadnak, hogy tervek nélkül, figyelve a belső hangra azt csináld, ami jól esik."
+  button:
+    enable: true
+    label: "Lefoglalom"
+    link: "https://www.airbnb.hu/rooms/685373647444239102"
