@@ -7,8 +7,16 @@
 
 .about-text {
   margin-top: -200px;
-  padding-left: 70px;
   padding-top: 100px;
+  padding-left: 70px;
+
+  @include tablet {
+    padding-left: 2rem;
+  }
+
+  @include mobile {
+    padding-left: 1rem;
+  }
 }
 
 .feature-blocks {

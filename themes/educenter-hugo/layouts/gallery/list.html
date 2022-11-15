@@ -120,9 +120,9 @@
 					class="galleryImg"
 					{{ with $metadata }}
 						{{ if .Title }}
-							title="{{ .Title }}"
+							title="{{ i18n .Title }}"
 						{{ else if .ImageDescription }}
-							title="{{ .ImageDescription }}"
+							title="{{ i18n .ImageDescription }}"
 						{{ end }}
 
 						{{ if $showExif }}
