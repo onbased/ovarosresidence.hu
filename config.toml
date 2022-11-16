@@ -4,7 +4,7 @@ assetDir = "assets"
 
 ######################## default configuration ####################
 baseURL = "https://ovarosresidence.hu"
-title = "Ovaros Residence | Elegancia Veszprém szívében"
+title = "Óváros Residence | Elegancia Veszprém szívében"
 theme = [ "educenter-hugo", "hugo-shortcode-gallery"]
 # post pagination
 paginate = "6"
@@ -61,7 +61,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo.svg"
 # Meta data
 description = "This is meta description"
 author = "OnBaesd Group Kft."
