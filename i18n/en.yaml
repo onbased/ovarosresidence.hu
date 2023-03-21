@@ -13,6 +13,12 @@
 - id: contact_us
   translation: Contact Us
 
+- id: booking_title
+  translation: Book with us now
+
+- id: booking
+  translation: Send inquiry
+
 - id: apply_now
   translation: Apply now
 
@@ -56,3 +62,5 @@
   translation: Bedroom 2
 - id: closet
   translation: Walk in closet
+- id: environment
+  translation: Environment

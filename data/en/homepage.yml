@@ -6,21 +6,83 @@ slider:
     # slider item loop
     - title: "The ÓVÁROS RESIDENCE is waiting"
       content: "Elegance in the old town of Veszprém. Would you like to break away from everyday life for a few days? Would you go away? Spend a few days with us in the Old Town Residence and give yourself the opportunity to enjoy a slow morning guilt-free, or get up early and explore the city."
+      content_image: "booking_score.png"
       animation_in: "left"
       animation_out: "right"
       # available animation : left, right, up, down
       button:
         enable: true
-        label: "Check availability"
-        link: "https://www.airbnb.hu/rooms/685373647444239102"
+        label: "Book now"
+        link: "booking/"
 
 ############################## about ##################################
 about:
   enable: true
-  title: "Old Town Residence - Dare to dream"
-  image: "images/banner/banner-feature.png"
-  content: "Would you like to break away from everyday life for a few days? Would you go away? Spend a few days with us in the Old Town Residence and give yourself the opportunity to enjoy a slow morning guilt-free, or get up early and explore the Old Town. Feel what you want and need right now? Do what your heart tells you and allow yourself to do what feels right without plans, listening to your inner voice."
+  about_item:
+    # about item loop
+    - title: "Are you planning a trip to Veszprém and looking for accommodation? You found it!"
+      content: "Our aristocratic apartment - Óváros Residence - is located right in the middle of Veszprém, on Óváros tér, the expression „everything is within arm's reach” is not a marketing ploy: the Veszprém Castle, the Heroes' Gate, the Fire Tower, Dubniczay Palace, St. Michael's Cathedral are a 2-minute walk away available. Óváros tér is the beating heart of Veszprém. In addition to numerous attractions, it is home to events such as the Jazz, Rozé, Riesling Festival, and the Old Town Farmers' Market takes place here on Sundays. The Óváros Residenc offers an unparalleled view of the historic city center, street noise does not disturb relaxation, as it is largely a pedestrian zone. There are many cafés and restaurants in the area, for example the Historia Hangvilla Restaurant and Café with a daily menu, or the award-winning Malomkert Sörházat with an a'la carte menu and home-brewed beers."
+      image: "images/backgrounds/page-about.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Book now"
+        link: "booking/"
+
+    # about item loop
+    - title: "About accommodation"
+      content: >
+        A family with small children or a group of friends can feel at home in our 105 m2 apartment, we can accommodate 5 people at the same time. The large spaces ensure that our guests feel comfortable even during a longer stay.<br/>We furnished every room of the apartment with great care and modern design:
+
+
+        • comfortable double bedroom,
+
+
+        • spacious dining room and living room with pull-out sofa,
+
+
+        • fully equipped kitchen
+
+
+        • and a bathroom with a shower cabin awaits those who come here.
+      image: "images/backgrounds/page-accomodation.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Book now"
+        link: "booking/"
+
+    # about item loop
+    - title: "Equipment"
+      content: "Flat screen TV, cutlery, dishwasher, microwave oven, kettle, fridge, washing machine, tumble dryer, free wi-fi network in the entire apartment, individual cooling and heating equipment, hair dryer, bed linen, towels, separate wardrobe room. We can provide a cot on request."
+      image: "images/backgrounds/page-equipment.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Book now"
+        link: "booking/"
+
+    # about item loop
+    - title: "We recommend the Óváros Residence to you if"
+      content: >
+        • You like to take care of the food (breakfast, lunch, dinner) according to your own taste. Our fully equipped kitchen and dining room will help you with this.
+
+
+        • You would retreat a little from the hectic everyday life in an intimate way. The check-in and check-out and the operation of the locks are done with the help of a mobile application. The caterers are of course available by phone if necessary, but it is not necessary to meet them in person on-site.
+
+
+        • You like huge private spaces.
+
+
+        • Proximity to the city center and attractions is important to you.
+      image: "images/backgrounds/page-ambient.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Book now"
+        link: "booking/"
+
   button:
     enable: true
-    label: "Check availability"
-    link: "https://www.airbnb.hu/rooms/685373647444239102"
+    label: "Book now"
+    link: "booking/"

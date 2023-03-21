@@ -10,8 +10,9 @@
 {{
     $filterOptions := (
         printf 
-        "[{label: '%s', tags: '.*'}, {label: '%s', tags: 'entry'}, {label: '%s', tags: 'kitchen'}, {label: '%s', tags: 'bathroom'}, {label: '%s', tags: 'dinning'}, {label: '%s', tags: 'masterbedroom'}, {label: '%s', tags: 'secondbedroom'}, {label: '%s', tags: 'closet'}]"
+        "[{label: '%s', tags: '.*'}, {label: '%s', tags: 'environment'}, {label: '%s', tags: 'entry'}, {label: '%s', tags: 'kitchen'}, {label: '%s', tags: 'bathroom'}, {label: '%s', tags: 'dinning'}, {label: '%s', tags: 'masterbedroom'}, {label: '%s', tags: 'secondbedroom'}, {label: '%s', tags: 'closet'}]"
         (i18n "all")
+        (i18n "environment")
         (i18n "entry")
         (i18n "kitchen")
         (i18n "bathroom")

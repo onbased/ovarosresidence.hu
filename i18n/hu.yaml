@@ -13,6 +13,12 @@
 - id: contact_us
   translation: Írj nekünk
 
+- id: booking_title
+  translation: Foglaljon nálunk
+
+- id: booking
+  translation: Érdeklődés elküldése
+
 - id: join
   translation: Feliratkozom
 
@@ -53,3 +59,5 @@
   translation: Háló 2
 - id: closet
   translation: Gardrób
+- id: environment
+  translation: Környezet

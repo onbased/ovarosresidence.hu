@@ -6,21 +6,83 @@ slider:
     # slider item loop
     - title: "Vár az ÓVÁROS RESIDENCE"
       content: "Elegancia Veszprém óváros részén. Kiszakadnál a hétköznapokból pár napra? Elutaznál? Tölts néhány napot nálunk az Óváros Residenceben és adj magadnak lehetőséget arra, hogy bűntudat nélkül éld meg a lassú reggelt, vagy kelj korán és fedezd fel a várost."
+      content_image: "booking_score.png"
       animation_in: "left"
       animation_out: "right"
       # available animation : left, right, up, down
       button:
         enable: true
         label: "Lefoglalom"
-        link: "https://www.airbnb.hu/rooms/685373647444239102"
+        link: "booking/"
 
 ############################## about ##################################
 about:
   enable: true
-  title: "Óváros Residence - Merj álmodni"
-  image: "images/banner/banner-feature.png"
-  content: "Kiszakadnál a hétköznapokból pár napra? Elutaznál? Tölts néhány napot nálunk az Óváros Residence-ben és adj magadnak lehetőséget arra, hogy bűntudat nélkül éld meg a lassú reggelt, vagy kelj korán és fedezd fel az óvárost. Érezd meg, hogy most éppen mire vágysz, mire van szükséged? Mit súg a szíved és engedd meg magadnak, hogy tervek nélkül, figyelve a belső hangra azt csináld, ami jól esik."
+  about_item:
+    # about item loop
+    - title: "Veszprémi utazást tervez, melyhez szállást keres? Megtalálta!"
+      content: "Nagypolgári lakásunk - az Óváros Residence - Veszprém kellős közepén, az Óváros téren található, nálunk nem marketing fogás a „minden egy karnyújtásnyira” kifejezés: a veszprémi Vár, a Hősök Kapuja, a Tűztorony, a Dubniczay Palota, a Szent Mihály Székesegyház 2 perc sétával elérhető. Az Óváros tér Veszprém lüktető szíve. Amellett, hogy számos látványosság található itt, otthona olyan rendezvényeknek, mint a Jazz, Rozé, Rizling Fesztivál, vasárnaponként itt kap helyet az Óváros termelői piac. Az Óváros Residencből páratlan kilátás nyílik a történelmi belvárosra, utcazaj nem zavarja a pihenést, hiszen nagyrészt sétáló övezet. Számos kávézó és étterem elérhető a környéken, jó szívvel ajánljuk például a Historia Hangvilla Étterem és Kávézót napi menüvel, vagy a díjnyertes Malomkert Sörházat a’la carte étlappal és házi csapolt sörökkel."
+      image: "images/backgrounds/page-about.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Lefoglalom"
+        link: "booking/"
+
+    # about item loop
+    - title: "Szállásról"
+      content: >
+        105 m2-es lakásunkban egy kisgyermekes család vagy baráti társaság is otthon érezheti magát, 5 fő elhelyezését tudjuk egyidejűleg biztosítani. A nagy terek gondoskodnak róla, hogy hosszabb tartózkodás idején is komfortosan érezzék magukat vendégeink.<br/>Nagy gonddal, modern dizájn szerint rendeztük be a lakás minden helyiségét:
+
+
+        • kényelmes, kétszemélyes hálószoba,
+
+
+        • tágas étkező és nappali kihúzható kanapéval,
+
+
+        • teljesen felszerelt konyha
+
+
+        • és zuhanykabinos fürdőszoba várja az ide érkezőket.
+      image: "images/backgrounds/page-accomodation.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Lefoglalom"
+        link: "booking/"
+
+    # about item loop
+    - title: "Felszereltség"
+      content: "Síkképernyős TV, evő- és tálalóeszközök, mosogatógép, mikróhullámú sütő, vízforraló, hűtőszekrény, mosógép, szárítógép, ingyenes wi-fi hálózat a teljes lakásban, egyéni hűtő- fűtőberendezés, hajszárító, ágynemű, törölköző, külön gardrób helyiség. Kérésre babaágyat tudunk biztosítani."
+      image: "images/backgrounds/page-equipment.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Lefoglalom"
+        link: "booking/"
+
+    # about item loop
+    - title: "Az Óváros Residencet Önnek ajánljuk, ha"
+      content: >
+        • Az ellátásról (reggeli, ebéd, vacsora) szeret Ön gondoskodni saját ízlése szerint. Ehhez nyújt segítséget teljesen felszerelt konyhánk és étkezőnk.
+
+
+        • Intim módon elvonulna kicsit a zsongó hétköznapokból. A be- és kijelentkezés valamint a zárak működtetése ugyanis mobilapplikáció segítségével történik. A vendéglátók természetesen szükség esetén telefonon elérhetőek, de a helyszínen nem szükséges személyesen is találkozni velük.
+
+
+        • Szereti az óriási privát tereket.
+
+
+        • Fontos Önnek a belváros és a látnivalók közelsége.
+      image: "images/backgrounds/page-ambient.png"
+      # available animation : left, right, up, down
+      button:
+        enable: true
+        label: "Lefoglalom"
+        link: "booking/"
+
   button:
     enable: true
     label: "Lefoglalom"
-    link: "https://www.airbnb.hu/rooms/685373647444239102"
+    link: "booking/"

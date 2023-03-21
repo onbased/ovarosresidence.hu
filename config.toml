@@ -67,10 +67,13 @@ description = "This is meta description"
 author = "OnBaesd Group Kft."
 # contact info
 address = "8200 Veszprém, Óváros tér 2."
-mobile = "+36305742097"
-email = "info@ovarosresidence.hu"
+mobile = "+36703963170"
+email = "ovarosresidence@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+# NOTE:
+# Later maybe
+# https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server/blob/master/README.md
+contact_form_action = "mailto:ovarosresidence@gmail.com" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
@@ -83,7 +86,7 @@ preloader = "images/preloader.jpg" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -121,6 +124,8 @@ weight = 1
 home = "Kezdőlap"
 # copyright
 copyright = "Copyright &copy; 2022 by [OnBased Group](https://onbased.com)"
+cookie = "Ez az oldal cookie-kat használ. A weboldal használatának folytatásával Ön beleegyezik azok használatába."
+cookieAction = "Elfogadom"
 
 ################### English navigation ####################
 
@@ -132,7 +137,8 @@ weight = 1
 
 [[Languages.hu.menu.main]]
 name = "Foglalás"
-url = "https://www.airbnb.hu/rooms/685373647444239102"
+# url = "https://www.airbnb.hu/rooms/685373647444239102"
+url = "booking/"
 weight = 2
   
 [[Languages.hu.menu.main]]
@@ -149,6 +155,8 @@ weight = 2
 home = "Home"
 # copyright
 copyright = "Copyright &copy; 2022 by [OnBased Group](https://onbased.com)"
+cookie = "This site uses cookies. By continuing to use this website, you agree to their use."
+cookieAction = "Accept"
 
 ################### English navigation ####################
 
@@ -160,7 +168,8 @@ weight = 1
 
 [[Languages.en.menu.main]]
 name = "Booking"
-url = "https://www.airbnb.hu/rooms/685373647444239102"
+# url = "https://www.airbnb.hu/rooms/685373647444239102"
+url = "booking/"
 weight = 2
 
 [[Languages.en.menu.main]]
