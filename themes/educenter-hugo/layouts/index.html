@@ -39,12 +39,15 @@
               markdownify }}</h1>
             <p class="text-muted mb-4" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}"
               data-delay-in=".4">{{ .content | markdownify }}</p>
-            {{ $image := resources.Get "images/booking_score.png" }}
-            {{ $image := $image.Resize "x300" }}
+            <!-- {{ $image := resources.Get "images/booking_score.png" }}
+            {{ $image := $image.Resize "x300" }} -->
             <div class="mb-4" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">
-              {{ with $image }}
+              <script async src="https://badge.hotelstatic.com/embed.js"
+                data-url="https://www.booking.com/hotel/hu/ovaros-residence.html" data-size="150" data-position="inline"
+                data-clickable="true"></script>
+              <!-- {{ with $image }}
               <img class="" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="banner-feature">
-              {{ end }}
+              {{ end }} -->
             </div>
 
             {{ if .button.enable }}
